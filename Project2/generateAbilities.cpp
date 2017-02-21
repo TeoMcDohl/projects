@@ -4,7 +4,7 @@
 #include "abilities.h"
 #include <iostream>
 #include <sstream>
-
+//Not a fan of this method right now.
 abilities makeAbility(hero& player1)
 {
 	using namespace std;
