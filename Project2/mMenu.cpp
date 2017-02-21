@@ -63,7 +63,7 @@ void mMenu()
 		{
 			exit(0);
 		}
-		else if (inputInt != 1 && inputInt != 2 && inputInt != 3)
+		else
 		{
 			cout << "invalid option" << endl;
 			mMenu();

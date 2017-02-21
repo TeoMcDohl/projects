@@ -33,7 +33,7 @@ void roomOne(hero& player1, abilities& ability1, mob& currentMob)
 		{
 
 		}
-		else if (room1Int != 1 && room1Int != 2)
+		else
 		{
 			cout << "*Invalid option*" << endl;
 			roomOne(player1, ability1, currentMob);

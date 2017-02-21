@@ -71,9 +71,9 @@ void fightengine(hero& player1, abilities& ability1, mob& currentMob)
 		{
 			cout << "Insufficient mana!\n" << "\n";
 		}
-		else if (choice != 1 && choice != 2)
+		else
 		{
-			cout << "Invalid option.  :|" << "\n" << "\n";
+			cout << "*Invalid option*" << "\n" << "\n";
 		}
 
 		player1.displayStats();

@@ -67,7 +67,8 @@ void lobbyMenu(hero& player1, abilities& ability1, mob& currentMob)
 		{
 			mMenu();
 		}
-		else if (lobbyChoiceInt != 1 && lobbyChoiceInt != 2 && lobbyChoiceInt != 3 && lobbyChoiceInt != 4 && lobbyChoiceInt != 5 && lobbyChoiceInt != 6)
+
+		else
 		{
 			cout << "*Invalid option*" << endl;
 			lobbyMenu(player1, ability1, currentMob);
